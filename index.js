@@ -1,6 +1,6 @@
 // Write your solution in this file!
 let driver = {};
 
-updateDriverWithKeyAndValue(x,key, value){
-   x[key] = value;
+updateDriverWithKeyAndValue(driver,key, value){
+  Object.assign({},driver,{key:value});
 }
