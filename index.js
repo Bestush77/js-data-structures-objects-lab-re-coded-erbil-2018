@@ -6,5 +6,5 @@ function updateDriverWithKeyAndValue(driver,key, value){
 }
 
 destructivelyUpdateDriverWithKeyAndValue(driver,key,value){
-  driver
+  driver[key] = value;
 }
