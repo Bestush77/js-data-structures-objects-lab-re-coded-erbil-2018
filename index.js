@@ -1,6 +1,6 @@
 // Write your solution in this file!
 let driver = {};
 
-updateDriverWithKeyAndValue(key, value){
+updateDriverWithKeyAndValue(driver,key, value){
   return driver[key] = value;
 }
